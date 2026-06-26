@@ -1,0 +1,38 @@
+# ── TriSAFE dependencies ──
+# Core scientific / data stack
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+joblib==1.4.2
+threadpoolctl==3.5.0
+
+# Homomorphic encryption (additively-homomorphic Paillier)
+phe==1.5.0
+
+
+# NumPy-2-compatible release; NumPy 2.1.x needs torch >= 2.1.
+torch>=2.2
+
+# torchvision: required for the MNIST / CIFAR-10 image datasets (auto-download)
+torchvision>=0.17
+
+# Progress bars 
+tqdm>=4.66
+
+# Plotting and figures
+matplotlib==3.9.2
+seaborn>=0.13            
+contourpy==1.3.1
+cycler==0.12.1
+fonttools==4.55.0
+kiwisolver==1.4.7
+pyparsing==3.2.0
+pillow==11.0.0
+
+# Misc / transitive utilities
+packaging==24.2
+python-dateutil==2.9.0.post0
+pytz==2024.2
+tzdata==2024.2
+six==1.16.0
