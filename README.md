@@ -1,6 +1,6 @@
-## TriSAFE: A Gateway-Assisted IoT Federated Learning
+## Paper Title: Transcript-Bound Verifiable Secure Aggregation with Differential Privacy and Timing Defenses for Gateway-Assisted IoT Federated Learning 
 
-**Paper Title: Transcript-Bound Verifiable Secure Aggregation with Differential Privacy and Timing Defenses for Gateway-Assisted IoT Federated Learning**
+**TriSAFE: A Gateway-Assisted IoT Federated Learning**
 
 <p align="left">
   <img alt="Status" src="https://img.shields.io/badge/status-research%20artifact-blue">
