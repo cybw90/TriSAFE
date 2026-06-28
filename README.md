@@ -17,7 +17,7 @@ This repository contains the research prototype accompanying the paper. It imple
 
 ## Table of Contents
 
-- [Key Contributions](#key-contributions)
+- [Key Contributions & The Substitution Gap](#key-contributions)
 - [Architecture & Code Map](#architecture--code-map)
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
