@@ -11,7 +11,7 @@
 
 TriSAFE is a **protocol composition** for federated learning across IoT / IoMT devices that simultaneously (1) keeps each device's update confidential, (2) bounds the influence of malicious participants, and (3) hides which devices participate from passive network observers — all under a **single coordinating server that holds no decryption key**, assisted by **three threshold helpers** (2-of-3 Paillier).
 
-This repository contains the research prototype accompanying the paper. It implements the full three-layer pipeline (timing-private batching → verifiable robust screening → encrypted aggregation with distributed DP), the attack suite, and the figure-generation scripts used in the evaluation.
+This repository contains the research prototype accompanying the paper. It implements the full three-layer pipeline (timing-private batching → verifiable robust screening → encrypted aggregation with distributed DP), the attack suite, and the figure-creation scripts used in the evaluation.
 
 ---
 
@@ -76,9 +76,9 @@ TriSAFE/
 ├── model_training.py           # Model (TinyMLNetwork) + ModelTrainer / FederatedTrainer
 ├── data_loader.py              # Unified multi-dataset loader (edge_iiot / nbaiot / mnist / cifar10), IID / non-IID
 │
-├── results_final.py            # Figure generation (full suite incl. FANG)
-├── results_100.py              # Figure generation (N=100)
-├── results_100_All.py          # Figure generation (N=100 incl. FANG)
+├── results_final.py            # Figures  (full suite incl. FANG)
+├── results_100.py              # Figures  (N=100)
+├── results_100_All.py          # Figures  (N=100 incl. FANG)
 ├── mnist_comparison_final.py   # MNIST vs. MODEL baseline comparison figures
 │
 ├── requirements.txt            # Python dependencies
