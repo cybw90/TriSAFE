@@ -35,7 +35,7 @@ This repository contains the research prototype accompanying the paper. It imple
 
 1. **Transcript-Bound Proof-to-Ciphertext Binding (PEP):** Bridges a critical validation-privacy gap under additively homomorphic secure aggregation. Traditional input-validation checks are vulnerable to a **Substitution Attack**, where an adversarial client submits a valid zero-knowledge range proof for one value while encrypting entirely different, malicious values in the ciphertext block. TriSAFE introduces a folded, slot-wise Plaintext Equivalence Protocol (PEP) with an explicit Schwartz-Zippel collision analysis that cryptographically binds ZK-visible commitments to the exact packed Paillier plaintext blocks.
    
-Our ablation testing highlights the necessity of this mathematical binding: **removing the PEP layer causes the Attack Success Rate (ASR) under a Byzantine attack to spike from 0.6% to 12.1%**. Implemented in `bulletproof_pep.py`.
+  Our ablation testing highlights the necessity of this mathematical binding: **Removing the PEP layer causes the Attack Success Rate (ASR) under a Byzantine attack to spike from 0.6% to 12.1%**. Implemented in   `bulletproof_pep.py`.
 
 2. **Fixed-Sensitivity Helper-Noised Release:** An apportionment-guided weighted aggregation rule that avoids post-validation renormalization. This ensures that the global $\ell_2$-sensitivity of the released statistic remains stable ($\Delta_2 = 2C/n$) and independent of post-screening acceptance or dropout outcomes, preserving the mathematical integrity of the differential privacy accounting. Implemented across `phe_mechanism.py` and `server_ops.py`.
 
