@@ -1,12 +1,14 @@
 ## Paper Title: TriSAFE: Transcript-Bound Verifiable Secure Aggregation with Differential Privacy and Timing Defenses for Gateway-Assisted IoT Federated Learning 
 
 **A Gateway-Assisted IoT Federated Learning**
+> 🏆 **Featured Article — IEEE Access Editor's Choice.** This paper was selected by the IEEE Access editors as a Featured Article. [Read the paper](https://ieeeaccess.ieee.org/featured-article/trisafe-transcript-bound-verifiable-secure-aggregation-with-differential-privacy-and-timing-defenses-for-gateway-assisted-iot-federated-learning/).
 
 <p align="left">
   <img alt="Status" src="https://img.shields.io/badge/status-research%20artifact-blue">
   <img alt="Venue" src="https://img.shields.io/badge/IEEE%20Access-2026-00629B">
   <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB">
   <img alt="Paillier" src="https://img.shields.io/badge/HE-python--paillier%20(phe)-orange">
+  <img alt="Featured Article" src="https://img.shields.io/badge/IEEE%20Access-Featured%20Article%20%E2%80%A2%20Editor%27s%20Choice-FFB000">
 </p>
 
 TriSAFE is a **protocol composition** for federated learning across IoT / IoMT devices that simultaneously (1) keeps each device's update confidential, (2) bounds the influence of malicious participants, and (3) hides which devices participate from passive network observers — all under a **single coordinating server that holds no decryption key**, assisted by **three threshold helpers** (2-of-3 Paillier).
