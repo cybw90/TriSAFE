@@ -2,7 +2,8 @@
 
 **A Gateway-Assisted IoT Federated Learning**
 > 🏆 **Featured Article — IEEE Access Editor's Choice.**
-> This paper was selected by the IEEE Access editors as a Featured Article. [Featured Article](https://ieeeaccess.ieee.org/featured-article/trisafe-transcript-bound-verifiable-secure-aggregation-with-differential-privacy-and-timing-defenses-for-gateway-assisted-iot-federated-learning/).
+> This paper was selected by the IEEE Access editors as a Featured Article.
+> [Featured Article](https://ieeeaccess.ieee.org/featured-article/trisafe-transcript-bound-verifiable-secure-aggregation-with-differential-privacy-and-timing-defenses-for-gateway-assisted-iot-federated-learning/).
 
 <p align="left">
   <img alt="Status" src="https://img.shields.io/badge/status-research%20artifact-blue">
