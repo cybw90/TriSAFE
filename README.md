@@ -270,20 +270,23 @@ python mnist_comparison_final.py   # TriSAFE vs. MODEL baselines (MNIST)
 
 ## Citation
 
+> 🏆 **Featured Article — IEEE Access Editor's Choice.** This paper was selected by the IEEE Access editors as a Featured Article (Vol. 14, 2026).
+
 If you use TriSAFE in your research, please cite:
 
 ```bibtex
 @article{shah2026trisafe,
-  author={Shah, Sajjad H. and Walker, Ian and Borowczak, Mike},
-  journal={IEEE Access}, 
-  title={TriSAFE: Transcript-Bound Verifiable Secure Aggregation With Differential Privacy and Timing Defenses for Gateway-Assisted IoT Federated Learning}, 
-  year={2026},
-  volume={14},
-  number={},
-  pages={89354-89379},
-  keywords={Federated learning;Internet of Things;Labeling;Licenses;Modeling;Noise;Nuclear facility regulation;Privacy;Timing;Aggregates;Federated learning;Internet of Things;secure aggregation;differential privacy;zero-knowledge proofs;homomorphic encryption;verifiable computation},
-  doi={10.1109/ACCESS.2026.3700048}}
+  author   = {Shah, Sajjad H. and Walker, Ian and Borowczak, Mike},
+  title    = {{TriSAFE}: Transcript-Bound Verifiable Secure Aggregation With Differential Privacy and Timing Defenses for Gateway-Assisted {IoT} Federated Learning},
+  journal  = {IEEE Access},
+  year     = {2026},
+  volume   = {14},
+  pages    = {89354--89379},
+  doi      = {10.1109/ACCESS.2026.3700048},
+  keywords = {Federated learning; Internet of Things; secure aggregation; differential privacy; zero-knowledge proofs; homomorphic encryption; verifiable computation}
+}
 ```
+
 ---
 
 ## Acknowledgments
